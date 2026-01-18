@@ -1,0 +1,100 @@
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.synopsis {
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.linkwrapper {
+  margin-top: 50px;
+}
+
+.link {
+  /* font-size: 30px; */
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  padding: 25px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.link h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.link h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.link span {
+  font-size: 20px;
+}
+
+.link:hover,
+.link:active {
+  background-color: #f9d;
+}
+
+.wavyline {
+  width: 200%;
+  height: 10px;
+  border-top: 2px pink solid;
+  position: absolute;
+  bottom: 50px;
+  left: -50px;
+  transform: translateY(10px);
+}
+
+.finalwavyline {
+  transform: translateY(-2000px);
+  transition: transform 3s;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
