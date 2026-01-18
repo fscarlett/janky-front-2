@@ -5,11 +5,22 @@ html {
   font-size: 100%;
 }
 
+:root {
+  /* colors */
+  --back: #e0fcff;
+  --text-color: #333;
+}
+
 html,
 body {
   /* padding: 0; */
   /* margin: 0; */
   font-family: 'Space Mono', monospace;
+}
+
+body {
+  background-color: var(--back);
+  color: var(--text-color);
 }
 
 a {
