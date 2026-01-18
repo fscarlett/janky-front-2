@@ -7,8 +7,18 @@ html {
 
 :root {
   /* colors */
-  --back: #e0fcff;
-  --text-color: #333;
+  --oldback: #e0fcff;
+
+  --back: linear-gradient(rgb(167, 215, 233), #a6a6c6);
+  --text-color: #262626;
+
+  --primary: #eacda3;
+  --secondary: #597598;
+  --accent-1: #f37a6a;
+  --accent-2: #8fd5c2;
+  --neutral-light: #fbf7f2;
+  --neutral-dark: #262626;
+  --highlight: #a78cc0;
 }
 
 html,
@@ -19,7 +29,7 @@ body {
 }
 
 body {
-  background-color: var(--back);
+  background-image: var(--back);
   color: var(--text-color);
 }
 
