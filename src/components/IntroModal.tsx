@@ -10,14 +10,15 @@ export function IntroModal({ isOpen, onClose }: IntroModalProps) {
   if (!isOpen) return null
 
   return (
-    <div className={modalStyles.modalOverlay} onClick={onClose}>
+    <div
+      className={modalStyles.modalOverlay}
+      // onClick={onClose}
+    >
       <div
         className={modalStyles.modalContent}
         onClick={(e) => e.stopPropagation()}
       >
-        <button className={modalStyles.closeButton} onClick={onClose}>
-          ×
-        </button>
+        <button className={modalStyles.closeButton} onClick={onClose}></button>
 
         <h1 className={styles.title}>Janky</h1>
 
@@ -32,7 +33,7 @@ export function IntroModal({ isOpen, onClose }: IntroModalProps) {
         </div>
 
         <div className={styles.linkwrapper}>
-          <a href='/menu' className={styles.link}>
+          <a href='/login' className={styles.link}>
             <h3>Enter The Cloud</h3>
             <h4>and have your dreams come true</h4>
           </a>
