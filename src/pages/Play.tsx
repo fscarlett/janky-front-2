@@ -75,6 +75,20 @@ function Play() {
               </li>
             </ul>
           </div>
+          <div className={playStyles.nav_wrapper}>
+            <p className={playStyles.nav_label}>You Should Get Janky</p>
+            <ul>
+              <li>
+                <Link
+                  to='/janky-coffee'
+                  title='coffee shop on Golden Lake Ave'
+                  className={playStyles.play_link}
+                >
+                  Janky, Coffee of Champions
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className={playStyles.play_right_stats}>
           <div className={playStyles.level_wrapper}>
@@ -89,6 +103,11 @@ function Play() {
           <div className={playStyles.jank_wrapper}>
             <div className={playStyles.jank_label}>Jank:</div>
             <div className={playStyles.jank_amount}>500</div>
+          </div>
+
+          <div className={playStyles.cred_wrapper}>
+            <div className={playStyles.cred_label}>Cred:</div>
+            <div className={playStyles.cred_amount}>10</div>
           </div>
         </div>
       </div>
