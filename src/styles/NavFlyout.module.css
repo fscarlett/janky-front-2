@@ -1,0 +1,72 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
+
+.flyout {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+  transition: left 0.3s ease-in-out;
+  z-index: 999;
+  padding: 2rem;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.flyout.open {
+  left: 0;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.closeButton:hover {
+  opacity: 0.7;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 3rem 0 0 0;
+}
+
+.navList li {
+  margin-bottom: 1.5rem;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  display: block;
+  padding: 0.5rem 0;
+  transition: opacity 0.2s;
+}
+
+.navLink:hover {
+  opacity: 0.7;
+}
