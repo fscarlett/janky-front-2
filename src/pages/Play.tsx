@@ -18,6 +18,7 @@ function Play() {
                 <Link
                   to='/store-sunset'
                   title='famous vintage gear store on Sunrise Blvd'
+                  className={playStyles.play_link}
                 >
                   Alvin&apos;s Guitars
                 </Link>
@@ -26,6 +27,7 @@ function Play() {
                 <Link
                   to='/store-figueroa'
                   title='indie-famous used gear store on Figueroa St'
+                  className={playStyles.play_link}
                 >
                   Retro Music
                 </Link>
@@ -34,6 +36,7 @@ function Play() {
                 <Link
                   to='/store-alley'
                   title='A super shady Aussie guy who wanders around in a messed up Range Rover'
+                  className={playStyles.play_link}
                 >
                   Gunther the Shady Gear Dude
                 </Link>
@@ -47,6 +50,7 @@ function Play() {
                 <Link
                   to='/bar-slbvd'
                   title='300 capacity club on Golden Lake Ave'
+                  className={playStyles.play_link}
                 >
                   Cloudland
                 </Link>
@@ -55,6 +59,7 @@ function Play() {
                 <Link
                   to='/bar-sunset-north'
                   title='120 capacity bar on Sunrise Blvd'
+                  className={playStyles.play_link}
                 >
                   Sunrise Lounge
                 </Link>
@@ -63,6 +68,7 @@ function Play() {
                 <Link
                   to='/bar-sunset-south'
                   title='Dive bar next to the stadium entrance by downtown'
+                  className={playStyles.play_link}
                 >
                   Whos On First
                 </Link>

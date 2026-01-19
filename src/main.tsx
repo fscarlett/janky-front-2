@@ -9,6 +9,7 @@ import LoginPage from './pages/Login.tsx'
 import Instructions from './pages/Instructions.tsx'
 import Play from './pages/Play.tsx'
 import Credits from './pages/Credits.tsx'
+import NotFound from './pages/NotFound.tsx'
 import { Layout } from './components/Layout.tsx'
 
 createRoot(document.getElementById('root')!).render(
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path='/play' element={<Play />} />
           <Route path='/credits' element={<Credits />} />
           <Route path='/instructions' element={<Instructions />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </Layout>
     </BrowserRouter>
