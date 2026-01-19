@@ -16,6 +16,10 @@
   line-height: 1.4;
 }
 
+.synopsis span {
+  text-decoration: line-through;
+}
+
 .linkwrapper {
   margin-top: 50px;
 }
@@ -50,6 +54,16 @@
 .link:hover,
 .link:active {
   background-color: #f9d;
+}
+
+.ppl_link {
+  padding: 2px 10px;
+}
+
+.ppl_link:hover,
+.ppl_link:active {
+  background-color: #f9d;
+  text-decoration: underline;
 }
 
 .wavyline {
