@@ -9,17 +9,20 @@ import LoginPage from './pages/Login.tsx'
 import Instructions from './pages/Instructions.tsx'
 import Play from './pages/Play.tsx'
 import Credits from './pages/Credits.tsx'
+import { Layout } from './components/Layout.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/login' element={<LoginPage />} />
-        <Route path='/play' element={<Play />} />
-        <Route path='/credits' element={<Credits />} />
-        <Route path='/instructions' element={<Instructions />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path='/' element={<App />} />
+          <Route path='/login' element={<LoginPage />} />
+          <Route path='/play' element={<Play />} />
+          <Route path='/credits' element={<Credits />} />
+          <Route path='/instructions' element={<Instructions />} />
+        </Routes>
+      </Layout>
     </BrowserRouter>
   </StrictMode>,
 )
