@@ -7,11 +7,12 @@ interface NavFlyoutProps {
 }
 
 const routes = [
-  { path: '/', label: 'Home' },
+  // { path: '/', label: 'Home' },
   { path: '/login', label: 'Login' },
-  { path: '/play', label: 'Play' },
-  { path: '/credits', label: 'Credits' },
+  { path: '/play', label: 'Lets Play This Fucking Game' },
   { path: '/instructions', label: 'Instructions' },
+  { path: '/credits', label: 'Credits and Info' },
+  { path: '/', label: 'Log Out: I-5 North Bakersfield San Francisco' },
 ]
 
 export function NavFlyout({ isOpen, onClose }: NavFlyoutProps) {
