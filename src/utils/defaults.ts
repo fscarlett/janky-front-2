@@ -6,6 +6,6 @@ export const defaultScores: {
 } = {
   level: 1,
   money: 1000,
-  jank: 50,
+  jank: 5,
   cred: 10,
 }
