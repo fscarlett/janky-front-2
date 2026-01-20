@@ -17,7 +17,7 @@ function Play() {
             <ul>
               <li>
                 <Link
-                  to='/store-sunset'
+                  to='/places/store-sunset'
                   title='famous vintage gear store on Sunrise Blvd'
                   className={playStyles.play_link}
                 >
@@ -26,7 +26,7 @@ function Play() {
               </li>
               <li>
                 <Link
-                  to='/store-figueroa'
+                  to='/places/store-figueroa'
                   title='indie-famous used gear store on Figueroa St'
                   className={playStyles.play_link}
                 >
@@ -35,7 +35,7 @@ function Play() {
               </li>
               <li>
                 <Link
-                  to='/store-alley'
+                  to='/places/store-alley'
                   title='A super shady Aussie guy who wanders around in a messed up Range Rover'
                   className={playStyles.play_link}
                 >
@@ -44,7 +44,7 @@ function Play() {
               </li>
               <li>
                 <Link
-                  to='/store-corporate'
+                  to='/places/store-corporate'
                   title='huge corporate music store in Hollywood that you say you never go to'
                   className={playStyles.play_link}
                 >
@@ -58,7 +58,7 @@ function Play() {
             <ul>
               <li>
                 <Link
-                  to='/bar-slbvd'
+                  to='/places/bar-slbvd'
                   title='300 capacity club on Golden Lake Ave'
                   className={playStyles.play_link}
                 >
@@ -67,7 +67,7 @@ function Play() {
               </li>
               <li>
                 <Link
-                  to='/bar-sunset-north'
+                  to='/places/bar-sunset-north'
                   title='120 capacity bar on Sunrise Blvd'
                   className={playStyles.play_link}
                 >
@@ -76,7 +76,7 @@ function Play() {
               </li>
               <li>
                 <Link
-                  to='/bar-sunset-south'
+                  to='/places/bar-sunset-south'
                   title='Dive bar next to the stadium entrance by downtown'
                   className={playStyles.play_link}
                 >
@@ -85,7 +85,7 @@ function Play() {
               </li>
               <li>
                 <Link
-                  to='/bar-dtla'
+                  to='/places/bar-dtla'
                   title='disgusting punk club in the heart of skid row DTLA'
                   className={playStyles.play_link}
                 >
@@ -99,7 +99,7 @@ function Play() {
             <ul>
               <li>
                 <Link
-                  to='/janky-coffee'
+                  to='/places/janky-coffee'
                   title='coffee shop on Golden Lake Ave'
                   className={playStyles.play_link}
                 >
