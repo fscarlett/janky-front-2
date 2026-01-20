@@ -42,6 +42,15 @@ function Play() {
                   Gunther the Shady Gear Dude
                 </Link>
               </li>
+              <li>
+                <Link
+                  to='/store-corporate'
+                  title='huge corporate music store in Hollywood that you say you never go to'
+                  className={playStyles.play_link}
+                >
+                  Pro Gear Center
+                </Link>
+              </li>
             </ul>
           </div>
           <div className={playStyles.nav_wrapper}>
@@ -72,6 +81,15 @@ function Play() {
                   className={playStyles.play_link}
                 >
                   Whos On First
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to='/bar-dtla'
+                  title='disgusting punk club in the heart of skid row DTLA'
+                  className={playStyles.play_link}
+                >
+                  The Site
                 </Link>
               </li>
             </ul>
