@@ -1,0 +1,110 @@
+{
+  "fenderJagReiss": {
+    "name": "Fender Jaguar Reissue",
+    "type": "guitar",
+    "image": "",
+    "description": "run of the mill hipster guitar, but smaller",
+    "price": 600,
+    "cool_level": 5,
+    "stockedBy": [1, 2, 3]
+  },
+  "fenderJagVintage": {
+    "name": "1966 Fender Jaguar",
+    "type": "guitar",
+    "image": "",
+    "description": "pretty frickin hip",
+    "price": 3000,
+    "cool_level": 8,
+    "stockedBy": [1, 2, 3]
+  },
+  "JazzmasterReiss": {
+    "name": "Fender Jazzmaster Reissue",
+    "type": "guitar",
+    "image": "",
+    "description": "run of the mill hipster guitar",
+    "price": 1000,
+    "cool_level": 5,
+    "stockedBy": [1, 2, 3]
+  },
+  "JazzmasterVintage": {
+    "name": "1964 Fender Jazzmaster",
+    "type": "guitar",
+    "image": "",
+    "description": "the fucking holy grail",
+    "price": 12000,
+    "cool_level": 10,
+    "stockedBy": [1, 2, 3]
+  },
+  "voxAC30": {
+    "name": "Vox AC30",
+    "type": "amp",
+    "image": "",
+    "description": "the beatles used it",
+    "price": 800,
+    "cool_level": 6,
+    "stockedBy": [1, 2, 3]
+  },
+  "casioSK1": {
+    "name": "Casio SK-1 Sampling Keyboard",
+    "type": "keys",
+    "image": "",
+    "description": "tiny keyboard, huge cred",
+    "price": 800,
+    "cool_level": 8,
+    "stockedBy": [1, 2, 3]
+  },
+  "wurliPiano": {
+    "name": "Wurlitzer Electric Piano",
+    "type": "keys",
+    "image": "",
+    "description": "the official champion funky eletric piano of all time",
+    "price": 1500,
+    "cool_level": 7,
+    "stockedBy": [1, 2, 3]
+  },
+  "rmiPiano": {
+    "name": "RMI Electric Piano",
+    "type": "keys",
+    "image": "",
+    "description": "secret weapon full size 70s electronic keyboard, extra points for usually being janky af",
+    "price": 700,
+    "cool_level": 6,
+    "stockedBy": [1, 2, 3]
+  },
+  "farfisaOrgan": {
+    "name": "1967 Farfisa Combo Organ",
+    "type": "keys",
+    "image": "",
+    "description": "defining instrument of the psych garage genre",
+    "price": 1900,
+    "cool_level": 8,
+    "stockedBy": [1, 2, 3]
+  },
+  "minimoog": {
+    "name": "Minimoog",
+    "type": "keys",
+    "image": "",
+    "description": "the single most iconic analog synth ever made",
+    "price": 3000,
+    "cool_level": 9,
+    "stockedBy": [1, 2, 3]
+  },
+  "rhodesPiano": {
+    "name": "Fender Rhodes Electric Piano",
+    "type": "keys",
+    "image": "",
+    "description": "radiohead used it",
+    "price": 2500,
+    "cool_level": 7,
+    "stockedBy": [1, 2, 3]
+  },
+  "mellotron": {
+    "name": "Mellotron",
+    "type": "keys",
+    "image": "",
+    "description": "the beatles used it",
+    "price": 1200,
+    "cool_level": 10,
+    "stockedBy": [1, 2, 3]
+  }
+}
