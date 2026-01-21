@@ -12,14 +12,37 @@ function Places() {
   const placeDescription =
     destinations[place || '']?.description || 'watev dude'
 
+  const venueCategory = destinations[place || '']?.category || 'unknown'
+
   return (
     <>
       <div className={styles.main}>
-        <h1> {placeName} </h1>
-        <p>{placeDescription}</p>
-        <Link to='/play' className={styles.back_link}>
-          Gotta bounce!
-        </Link>
+        <header className={styles.places_header}>
+          <h1> {placeName} </h1>
+          <p>{placeDescription}</p>
+        </header>
+        <div className={styles.places_content}>
+          {venueCategory === 'store' && (
+            <div className={styles.gear_column}>
+              <h2>gear for sale:</h2>
+            </div>
+          )}
+          {(venueCategory === 'club' || venueCategory === 'coffee') && (
+            <div className={styles.gear_column}>
+              <h2>menu:</h2>
+            </div>
+          )}
+
+          <div className={styles.interactions_column}>
+            <h2>wat</h2>
+          </div>
+        </div>
+
+        <footer className={styles.places_footer}>
+          <Link to='/play' className={styles.back_link}>
+            Gotta bounce!
+          </Link>
+        </footer>
       </div>
     </>
   )
