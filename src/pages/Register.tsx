@@ -1,15 +1,16 @@
 // import { Link } from 'react-router'
-import { SignIn } from '@clerk/clerk-react'
+import { SignUp } from '@clerk/clerk-react'
 import styles from '../styles/App.module.css'
 
-function LoginPage() {
+function RegisterPage() {
   return (
     <div className={styles.main}>
-      <h1>Login</h1>
+      <h1>Create Your Account For Free</h1>
       <div className={styles.clerk_wrapper}>
-        <SignIn fallbackRedirectUrl='/play' />
+        <SignUp />
       </div>
+      <p>The first one's always free</p>
     </div>
   )
 }
-export default LoginPage
+export default RegisterPage
