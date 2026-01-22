@@ -13,9 +13,11 @@ html {
   /* --text-color: #262626; */
   --text-color: #060606;
 
-  --primary: #eacda3;
+  /* --primary: #eacda3; */
+  --primary: #fae8a3;
   --secondary: #597598;
-  --accent-1: #f37a6a;
+  /* --accent-1: #f37a6a; */
+  --accent-1: #ff8a8a;
   --accent-2: #8fd5c2;
   --neutral-light: #fbf7f2;
   --neutral-dark: #262626;

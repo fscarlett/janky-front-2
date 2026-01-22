@@ -1,5 +1,6 @@
 import styles from '../styles/App.module.css'
 import modalStyles from '../styles/Modal.module.css'
+import { SignedIn, SignedOut } from '@clerk/clerk-react'
 
 interface IntroModalProps {
   isOpen: boolean
@@ -33,10 +34,18 @@ export function IntroModal({ isOpen, onClose }: IntroModalProps) {
         </div>
 
         <div className={styles.linkwrapper}>
-          <a href='/login' className={styles.link}>
-            <h3>Enter The Cloud</h3>
-            <h4>and have your dreams come true</h4>
-          </a>
+          <SignedOut>
+            <a href='/login' className={styles.link}>
+              <h3>Enter The Cloud</h3>
+              <h4>and have your dreams come true</h4>
+            </a>
+          </SignedOut>
+          <SignedIn>
+            <a href='/play' className={styles.link}>
+              <h3>Enter The Cloud</h3>
+              <h4>and return to paradise</h4>
+            </a>
+          </SignedIn>
         </div>
       </div>
     </div>

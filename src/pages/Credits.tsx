@@ -34,8 +34,8 @@ function Credits() {
       </div>
 
       <div className={styles.linkwrapper}>
-        <Link to='/' className={styles.link}>
-          <h3>back to menu</h3>
+        <Link to='/play' className={styles.link}>
+          <h3>back to the dream, baby</h3>
         </Link>
       </div>
     </div>

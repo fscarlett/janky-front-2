@@ -38,7 +38,7 @@ function Instructions() {
       </div>
 
       <div className={styles.linkwrapper}>
-        <Link to='/login' className={styles.link}>
+        <Link to='/play' className={styles.link}>
           <h3>Yes yes I need to live the dream</h3>
         </Link>
       </div>
