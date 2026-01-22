@@ -1,15 +1,29 @@
 import { Link } from 'react-router'
+import { useUser } from '@clerk/clerk-react'
 
 // import styles from '../styles/App.module.css'
 import playStyles from '../styles/Play.module.css'
 import { defaultScores } from '../utils/defaults'
 
 function Play() {
+  const { isSignedIn, user, isLoaded } = useUser()
   return (
     <div className={playStyles.main} id='play-main'>
+      <div className={playStyles.play_topbar}>
+        <div className={playStyles.play_logo}>JANKY</div>
+        <div className={playStyles.play_userinfo}>
+          {isLoaded && isSignedIn && user && (
+            <div>
+              <p className={playStyles.user_greeting}>
+                <span>👩‍🎤</span> {user.username || 'Janky Player'} in the house
+              </p>
+            </div>
+          )}
+        </div>
+      </div>
       <div className={playStyles.play_header}>
         <div className={playStyles.play_left_stats}>
-          <p>Gear List</p>
+          <p>My Stuff</p>
         </div>
         <div className={playStyles.play_center_nav}>
           <div className={playStyles.nav_wrapper}>

@@ -15,6 +15,39 @@
   /* background-image: linear-gradient(skyblue, #7474c3); */
 }
 
+.play_topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: var(--highlight);
+}
+
+.play_logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--accent-1);
+  text-decoration: none;
+  text-shadow: 2px 2px 16px rgba(0, 0, 0, 0.6);
+}
+
+.play_userinfo {
+  padding: 5px;
+}
+
+.user_greeting {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.user_greeting span {
+  /* margin-right: 10px; */
+  font-size: 36px;
+}
+
 .play_header {
   width: 100%;
   padding: 0 0 60px;
