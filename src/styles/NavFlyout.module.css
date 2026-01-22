@@ -73,7 +73,8 @@
   text-decoration: underline;
 }
 
-li button[component='SignOutButton'] {
+li button[component='SignOutButton'],
+li button[component='SignInButton'] {
   font-family: inherit;
   background: none;
   border: none;
@@ -84,7 +85,8 @@ li button[component='SignOutButton'] {
   text-align: left;
 }
 
-li button[component='SignOutButton']:hover {
+li button[component='SignOutButton']:hover,
+li button[component='SignInButton']:hover {
   color: var(--accent-2);
   text-decoration: underline;
 }

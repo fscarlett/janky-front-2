@@ -27,6 +27,7 @@
 .play_left_stats {
   padding: 10px 30px;
   background-color: var(--primary);
+  border-radius: 4px;
 }
 
 .play_right_stats {
@@ -36,6 +37,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  border-radius: 4px;
 }
 
 .level_wrapper,
