@@ -72,3 +72,19 @@
   color: var(--accent-2);
   text-decoration: underline;
 }
+
+li button[component='SignOutButton'] {
+  font-family: inherit;
+  background: none;
+  border: none;
+  color: var(--accent-1);
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  text-align: left;
+}
+
+li button[component='SignOutButton']:hover {
+  color: var(--accent-2);
+  text-decoration: underline;
+}

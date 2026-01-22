@@ -6,7 +6,7 @@ import { defaultScores } from '../utils/defaults'
 
 function Play() {
   return (
-    <div className={playStyles.main}>
+    <div className={playStyles.main} id='play-main'>
       <div className={playStyles.play_header}>
         <div className={playStyles.play_left_stats}>
           <p>Gear List</p>
