@@ -13,6 +13,7 @@ import './styles/globals.css'
 
 import App from './App.tsx'
 import LoginPage from './pages/Login.tsx'
+import LogoutPage from './pages/Logout.tsx'
 import RegisterPage from './pages/Register.tsx'
 import Instructions from './pages/Instructions.tsx'
 import Play from './pages/Play.tsx'
@@ -29,6 +30,7 @@ createRoot(document.getElementById('root')!).render(
           <Routes>
             <Route path='/' element={<App />} />
             <Route path='/login' element={<LoginPage />} />
+            <Route path='/logout' element={<LogoutPage />} />
             <Route path='/register' element={<RegisterPage />} />
             <Route path='/play' element={<Play />} />
             <Route path='/credits' element={<Credits />} />
