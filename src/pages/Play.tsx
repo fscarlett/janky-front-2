@@ -9,6 +9,17 @@ function Play() {
   const { isSignedIn, user, isLoaded } = useUser()
   return (
     <div className={playStyles.main} id='play-main'>
+      <div className={playStyles.play_top_nav}>
+        <Link to='/instructions' className={playStyles.play_top_link}>
+          Instructions
+        </Link>
+        <Link to='/credits' className={playStyles.play_top_link}>
+          Credits
+        </Link>
+        <Link to='/logout' className={playStyles.play_top_link}>
+          Log Out
+        </Link>
+      </div>
       <div className={playStyles.play_topbar}>
         <div className={playStyles.play_logo}>JANKY</div>
         <div className={playStyles.play_userinfo}>

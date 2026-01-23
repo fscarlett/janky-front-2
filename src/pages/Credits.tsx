@@ -4,7 +4,7 @@ import styles from '../styles/App.module.css'
 function Credits() {
   return (
     <div className={styles.main}>
-      <h1 className={styles.title}>Credits & Info</h1>
+      <h1 className={styles.credits_title}>Credits & Info</h1>
 
       <div className={styles.synopsis}>
         Game concepts:
@@ -27,10 +27,7 @@ function Credits() {
       <div className={styles.synopsis}>Coding: Fox Scarlett</div>
 
       <div className={styles.synopsis}>
-        STATUS: Right now you cannot actually &ldquo;get ahead&ldquo; in this
-        game. (Can you imagine?!?! That&apos;s bullshit, man!) But you never
-        know, I might code some incentives for you sometime. Yeah, you never
-        know, it could happen! Better keep playing!
+        STATUS: Weeellllll it's leeeetle baby innit
       </div>
 
       <div className={styles.linkwrapper}>
