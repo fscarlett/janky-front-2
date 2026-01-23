@@ -112,3 +112,42 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
+
+.freeway_sign {
+  text-align: center;
+}
+
+.freeway_sign button[component='SignOutButton'] {
+  text-align: center;
+  padding: 20px 30px;
+  cursor: pointer;
+  width: 350px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #248524;
+  color: #eee;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  line-height: 1.6;
+}
+
+.freeway_sign button[component='SignOutButton']:hover {
+  background-color: #2fb32f;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.not_done {
+  padding: 20px 40px;
+  margin-top: 40px;
+  font-size: 18px;
+  background-color: var(--accent-1);
+  border: 1px solid #222;
+  border-radius: 8px;
+}
+
+.not_done:hover {
+  background-color: var(--accent-2);
+  cursor: pointer;
+  text-decoration: underline;
+}
