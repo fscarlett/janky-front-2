@@ -68,12 +68,18 @@
 }
 
 .play_left_stats {
+  order: 1;
   padding: 10px 30px;
   background-color: var(--primary);
   border-radius: 4px;
 }
 
+.play_center_nav {
+  order: 2;
+}
+
 .play_right_stats {
+  order: 3;
   padding: 10px 30px;
   background-color: var(--primary);
   display: flex;
@@ -81,6 +87,26 @@
   justify-content: flex-start;
   align-items: flex-start;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 1023px) {
+  .play_header {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .play_left_stats {
+    order: 1;
+  }
+
+  .play_right_stats {
+    order: 2;
+  }
+
+  .play_center_nav {
+    order: 3;
+  }
 }
 
 .level_wrapper,
