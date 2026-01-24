@@ -36,6 +36,18 @@
   background-color: var(--highlight);
 }
 
+@media screen and (max-width: 700px) {
+  .play_topbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+}
+
 .play_logo {
   font-size: 28px;
   font-weight: bold;
