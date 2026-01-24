@@ -14,7 +14,9 @@ export function Layout({ children }: LayoutProps) {
 
   return (
     <>
-      {!isHomePage && <BurgerButton onClick={() => setIsFlyoutOpen(true)} />}
+      {false && !isHomePage && (
+        <BurgerButton onClick={() => setIsFlyoutOpen(true)} />
+      )}
       <NavFlyout isOpen={isFlyoutOpen} onClose={() => setIsFlyoutOpen(false)} />
       {children}
     </>
