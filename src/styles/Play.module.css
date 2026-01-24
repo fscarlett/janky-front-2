@@ -109,11 +109,11 @@
   }
 
   .play_left_stats {
-    order: 1;
+    order: 2;
   }
 
   .play_right_stats {
-    order: 2;
+    order: 1;
   }
 
   .play_center_nav {
