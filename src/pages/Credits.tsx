@@ -27,7 +27,7 @@ function Credits() {
       <div className={styles.synopsis}>Coding: Fox Scarlett</div>
 
       <div className={styles.synopsis}>
-        STATUS: Weeellllll it's leeeetle baby innit
+        STATUS: Weeellllll it's a leeeetle baby innit
       </div>
 
       <div className={styles.linkwrapper}>
