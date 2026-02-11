@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router'
+// import { ClerkProvider } from '@clerk/react-router'
 import { ClerkProvider } from '@clerk/clerk-react'
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
@@ -38,6 +39,7 @@ createRoot(document.getElementById('root')!).render(
             <Route path='/places/:place' element={<Places />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
+          {/* <App /> */}
         </Layout>
       </BrowserRouter>
     </ClerkProvider>
