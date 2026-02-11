@@ -4,6 +4,8 @@ import '../styles/globals.css'
 import styles from '../styles/Places.module.css'
 
 import { destinations } from '../utils/places'
+import Scores from '../components/Scores'
+import BarMenu from '../components/BarMenu'
 
 function Places() {
   const { place } = useParams<{ place: string }>()
@@ -21,6 +23,7 @@ function Places() {
           <h1> {placeName} </h1>
           <p>{placeDescription}</p>
         </header>
+        <Scores />
         <div className={styles.places_content}>
           {venueCategory === 'store' && (
             <div className={styles.gear_column}>
@@ -29,7 +32,7 @@ function Places() {
           )}
           {(venueCategory === 'club' || venueCategory === 'coffee') && (
             <div className={styles.gear_column}>
-              <h2>menu:</h2>
+              <BarMenu />
             </div>
           )}
 

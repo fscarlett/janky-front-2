@@ -1,5 +1,5 @@
 .scores_wrapper {
-  order: 3;
+  min-width: 250px;
   padding: 10px 30px;
   background-color: var(--primary);
   display: flex;

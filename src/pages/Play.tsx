@@ -3,7 +3,7 @@ import { useUser } from '@clerk/clerk-react'
 
 // import styles from '../styles/App.module.css'
 import playStyles from '../styles/Play.module.css'
-import { defaultScores } from '../utils/defaults'
+// import { defaultScores } from '../utils/defaults'
 
 import Scores from '../components/Scores'
 
