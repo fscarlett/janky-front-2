@@ -1,0 +1,29 @@
+.scores_wrapper {
+  min-width: 250px;
+  padding: 10px 30px;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 4px;
+}
+
+.level_wrapper,
+.money_wrapper,
+.jank_wrapper,
+.cred_wrapper {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.level_label,
+.money_label,
+.jank_label,
+.cred_label {
+  padding-right: 10px;
+}
