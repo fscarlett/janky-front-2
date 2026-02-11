@@ -5,6 +5,8 @@ import { useUser } from '@clerk/clerk-react'
 import playStyles from '../styles/Play.module.css'
 import { defaultScores } from '../utils/defaults'
 
+import Scores from '../components/Scores'
+
 function Play() {
   const { isSignedIn, user, isLoaded } = useUser()
   return (
@@ -135,7 +137,8 @@ function Play() {
           </div>
         </div>
         <div className={playStyles.play_right_stats}>
-          <div className={playStyles.level_wrapper}>
+          <Scores />
+          {/* <div className={playStyles.level_wrapper}>
             <div className={playStyles.level_label}>Level:</div>
             <div className={playStyles.level_amount}>{defaultScores.level}</div>
           </div>
@@ -162,7 +165,7 @@ function Play() {
                 maximumFractionDigits: 0,
               })}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={playStyles.play_board}>
