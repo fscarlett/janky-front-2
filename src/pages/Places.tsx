@@ -32,7 +32,7 @@ function Places() {
           )}
           {(venueCategory === 'club' || venueCategory === 'coffee') && (
             <div className={styles.gear_column}>
-              <BarMenu />
+              <BarMenu barId={place || ''} />
             </div>
           )}
 

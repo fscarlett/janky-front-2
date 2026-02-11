@@ -20,6 +20,10 @@ export const bar_menus: {} = {
       drink: 'Kamikaze',
       price: 12,
     },
+    {
+      drink: 'Nachos',
+      price: 20,
+    },
   ],
   'bar-sunset-north': [
     {
