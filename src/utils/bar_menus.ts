@@ -27,8 +27,8 @@ export const bar_menus: {} = {
   ],
   'bar-sunset-north': [
     {
-      drink: 'Modelo Especial',
-      price: 5,
+      drink: 'Modelo',
+      price: 6,
     },
     {
       drink: 'Corona',
@@ -39,7 +39,7 @@ export const bar_menus: {} = {
       price: 9,
     },
     {
-      drink: 'Gin and Tonic',
+      drink: 'Tanqueray and Tonic',
       price: 10,
     },
     {
