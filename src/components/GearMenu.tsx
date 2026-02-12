@@ -3,7 +3,8 @@ import gearList from '../utils/gear_list.json'
 import GearMenuStyles from '../styles/GearMenu.module.css'
 
 function GearMenu({ storeId }: { storeId: string }) {
-  console.log('store:', storeId)
+  // TODO: randomize gear and filter by storeId
+
   const menu = gearList || []
   return (
     <div className={GearMenuStyles.gearmenu_wrapper}>
