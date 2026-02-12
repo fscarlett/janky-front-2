@@ -2,7 +2,10 @@ import { interactions } from '../utils/interactions'
 import interactionsStyles from '../styles/Interactions.module.css'
 
 function Interactions({ placeId }: { placeId: string }) {
-  const interactionKey: number = 2
+  const interactionsQty = interactions.length
+  const randomIndex = Math.floor(Math.random() * interactionsQty)
+
+  const interactionKey: number = randomIndex
   const interaction = interactions[interactionKey] || {
     interaction: 'you blinked',
   }

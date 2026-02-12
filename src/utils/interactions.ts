@@ -1,4 +1,8 @@
-export const interactions: {} = [
+export const interactions: {
+  interaction: string
+  options: string[]
+  results: string[]
+}[] = [
   {
     interaction: 'describe interaction a',
     options: ['option 1', 'option 2', 'option 3'],
