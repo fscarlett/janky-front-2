@@ -29,18 +29,19 @@ function Places() {
         <div className={styles.places_content}>
           {venueCategory === 'store' && (
             <div className={styles.gear_column}>
-              <h2>gear for sale</h2>
+              <h2>gear!! gear!! gear!!</h2>
               <GearMenu storeId={place || ''} />
             </div>
           )}
           {(venueCategory === 'club' || venueCategory === 'coffee') && (
             <div className={styles.gear_column}>
+              <h2>another</h2>
               <BarMenu barId={place || ''} />
             </div>
           )}
 
           <div className={styles.interactions_column}>
-            <h2>Wha Happen</h2>
+            <h2>wha happen</h2>
             <Interactions placeId={place || ''} />
           </div>
         </div>
