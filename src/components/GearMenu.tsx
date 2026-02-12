@@ -4,6 +4,7 @@ import GearMenuStyles from '../styles/GearMenu.module.css'
 
 function GearMenu({ storeId }: { storeId: string }) {
   // TODO: randomize gear and filter by storeId
+  console.log('store:', storeId)
 
   const menu = gearList || []
   return (

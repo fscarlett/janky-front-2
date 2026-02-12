@@ -2,6 +2,8 @@ import { interactions } from '../utils/interactions'
 import interactionsStyles from '../styles/Interactions.module.css'
 
 function Interactions({ placeId }: { placeId: string }) {
+  console.log('place id:', placeId)
+
   const interactionsQty = interactions.length
   const randomIndex = Math.floor(Math.random() * interactionsQty)
 
