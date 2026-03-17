@@ -1,14 +1,17 @@
 import { Link } from 'react-router'
 import { useUser } from '@clerk/clerk-react'
 
-// import styles from '../styles/App.module.css'
 import playStyles from '../styles/Play.module.css'
-// import { defaultScores } from '../utils/defaults'
 
 import Scores from '../components/Scores'
 
 function Play() {
   const { isSignedIn, user, isLoaded } = useUser()
+
+  const playerId = user?.id
+
+  const getUserData = async (id: string) => {}
+
   return (
     <div className={playStyles.main} id='play-main'>
       <div className={playStyles.play_top_nav}>
@@ -138,34 +141,6 @@ function Play() {
         </div>
         <div className={playStyles.play_right_stats}>
           <Scores />
-          {/* <div className={playStyles.level_wrapper}>
-            <div className={playStyles.level_label}>Level:</div>
-            <div className={playStyles.level_amount}>{defaultScores.level}</div>
-          </div>
-          <div className={playStyles.money_wrapper}>
-            <div className={playStyles.money_label}>Money:</div>
-            <div className={playStyles.money_amount}>
-              {defaultScores.money.toLocaleString(undefined, {
-                minimumFractionDigits: 0,
-                maximumFractionDigits: 0,
-              })}
-            </div>
-          </div>
-
-          <div className={playStyles.jank_wrapper}>
-            <div className={playStyles.jank_label}>Jank:</div>
-            <div className={playStyles.jank_amount}>{defaultScores.jank}</div>
-          </div>
-
-          <div className={playStyles.cred_wrapper}>
-            <div className={playStyles.cred_label}>Cred:</div>
-            <div className={playStyles.cred_amount}>
-              {defaultScores.cred.toLocaleString(undefined, {
-                minimumFractionDigits: 0,
-                maximumFractionDigits: 0,
-              })}
-            </div>
-          </div> */}
         </div>
       </div>
       <div className={playStyles.play_board}>
