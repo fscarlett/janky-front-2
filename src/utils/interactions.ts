@@ -39,8 +39,9 @@ export const interactions: {
     options: [
       'invent an excuse to leave',
       'invent a reason why they should leave',
-      'wallow in it and feel let down when they eventually walk off',
+      'wallow in it and then feel disgusting',
       'pretend to be batshit crazy',
+      'pretend to be sane',
     ],
     results: ['result 1', 'result 2', 'result 3'],
   },
@@ -49,7 +50,8 @@ export const interactions: {
       'you see the person who gave a terrible review of your last record',
     options: [
       'stay as close as possible to them while appearing to be unaware of their presence',
-      'quickly down an extra drink and start an argument with them about an unrelated topic',
+      'start an argument with them about an unrelated topic',
+      'try to set them up with your psycho friend',
       'wordily admit that they were mostly right about your record and pitch your new project ',
       'angrily defend your record while pitching your new project',
       'hit on them',
@@ -90,6 +92,28 @@ export const interactions: {
     results: ['result 1', 'result 2', 'result 3'],
   },
   {
+    interaction:
+      'an odd looking person has just left a stack of bumper stickers on the counter concerning a rather fringe opinion',
+    options: [
+      'take one, find it in your stuff 5 years later',
+      'grab half the stack and stick them all over Sunrise Blvd',
+      'take enough of them home to cut them up so they read something ridiculous and stick that on your car',
+      'invent your own religion and have your own stickers printed to promote it ',
+    ],
+    results: ['result 1', 'result 2', 'result 3'],
+  },
+  {
+    interaction:
+      'a very intense individual is having an incomprehensible argument with the owner',
+    options: [
+      'turn around and leave immediately',
+      'stand 10 feet away and act like none of it concerns you ',
+      'tiptoe around the place whispering "don\'t call the cops" to everyone there',
+      'pitch your new project',
+    ],
+    results: ['result 1', 'result 2', 'result 3'],
+  },
+  {
     interaction: 'the person you were hoping to see is not there',
     options: [
       'immediately leave',
@@ -102,10 +126,10 @@ export const interactions: {
   {
     interaction: 'the person you were hoping to see is there',
     options: [
+      'immediately leave',
       'lurk in the back and wait for the right moment',
       'start edging toward the door',
       'walk up to them and say something about shoes',
-      'immediately leave',
     ],
     results: ['result 1', 'result 2', 'result 3'],
   },
@@ -114,8 +138,7 @@ export const interactions: {
     options: [
       'immediately leave',
       'refuse to budge from where you happen to be',
-      'talk with them for 3 hours and after finally leaving randomly throw a rock at something as you walk down the street',
-      'use every possible means to pry the person they are with away from them and then suddenly turn and run out the door',
+      'talk with them for 3 hours',
     ],
     results: ['result 1', 'result 2', 'result 3'],
   },
