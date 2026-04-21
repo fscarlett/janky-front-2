@@ -162,3 +162,9 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+.credits_footer {
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+}

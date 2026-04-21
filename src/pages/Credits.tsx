@@ -35,6 +35,10 @@ function Credits() {
           <h3>back to the dream, baby</h3>
         </Link>
       </div>
+
+      <div className={styles.credits_footer}>
+        <p>{` © 2021 - ${new Date().getFullYear()} Fox Scarlett. All rights reserved.`}</p>
+      </div>
     </div>
   )
 }
