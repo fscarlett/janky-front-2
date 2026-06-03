@@ -30,6 +30,22 @@
   min-height: 60vh;
 }
 
+.experience_card {
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background-color: #efe;
+  border: 3px solid #222;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  margin-top: 100px;
+}
+
 .back_link {
   margin: 100px 0;
   font-size: 18px;
@@ -44,4 +60,14 @@
 .back_link:hover {
   text-decoration: underline;
   background-color: var(--accent-2);
+}
+
+.experience_text {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.experience_result {
+  text-align: center;
+  font-weight: 600;
 }

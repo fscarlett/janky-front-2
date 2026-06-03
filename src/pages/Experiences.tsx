@@ -24,8 +24,13 @@ function Experiences() {
   return (
     <div className={styles.main}>
       <h1>How Janky Is It</h1>
-      <p>{experience.experience}</p>
-      <p>{experience.result}</p>
+      <p>
+        Oh look, another experience in <s>paradise</s> the cloud
+      </p>
+      <div className={styles.experience_card}>
+        <p className={styles.experience_text}>{experience.experience}</p>
+        <p className={styles.experience_result}>{experience.result}</p>
+      </div>
       <Link to='/play' className={styles.back_link}>
         OK bro watev
       </Link>
