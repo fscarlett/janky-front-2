@@ -5,11 +5,11 @@ function ChanceDrawCard() {
   return (
     <div className={chanceStyles.chance_card_wrapper}>
       <Link
-        to='/chance'
+        to='/experiences/0'
         title='have a random experience or are you a pantywaist'
         className={chanceStyles.chance_link}
       >
-        Draw a Chance Card
+        Draw An Experience Card
       </Link>
     </div>
   )
