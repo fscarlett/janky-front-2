@@ -4,6 +4,7 @@ import { useUser } from '@clerk/clerk-react'
 import playStyles from '../styles/Play.module.css'
 
 import Scores from '../components/Scores'
+import ChanceDrawCard from '../components/ChanceDrawCard'
 
 function Play() {
   const { isSignedIn, user, isLoaded } = useUser()
@@ -139,8 +140,11 @@ function Play() {
             </ul>
           </div>
         </div>
-        <div className={playStyles.play_right_stats}>
-          <Scores />
+        <div className={playStyles.play_right_wrapper}>
+          <div className={playStyles.play_right_stats}>
+            <Scores />
+          </div>
+          <ChanceDrawCard />
         </div>
       </div>
       <div className={playStyles.play_board}>
