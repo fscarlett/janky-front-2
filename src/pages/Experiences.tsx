@@ -32,7 +32,7 @@ function Experiences() {
         <p className={styles.experience_result}>{experience.result}</p>
       </div>
       <Link to='/play' className={styles.back_link}>
-        OK bro watev
+        ok bro watev
       </Link>
     </div>
   )
